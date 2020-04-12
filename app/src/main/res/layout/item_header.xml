@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_weight="1.8"
+        android:padding="8dp"
+        android:text="States/UT"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textSize="11dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:text="Confirmed"
+        android:textColor="@color/dark_red"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:textSize="11dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:text="Active"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+    <TextView
+        android:textSize="11dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:text="Recovered"
+        android:textColor="@color/dark_green"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textSize="11dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:text="Deaths"
+        android:textColor="@color/dark_yellow"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+</LinearLayout>
